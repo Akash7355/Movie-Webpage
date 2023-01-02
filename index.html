@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="main_bar">
+        <div class="left_content">
+            <h2 class="title">
+                Heplix
+            </h2>
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a class="active" href="#">Movies</a></li>
+                <li><a href="#">Theaters</a></li>
+                <li><a href="#">News</a></li>
+            </ul>
+        </div>
+        <div class="right_content">
+            <img src="/images/filter.png" alt="filter" class="filter">
+            <img src="/images/cart.png" alt="cart" class="cart">
+            <img src="/images/help.png" alt="help" class="help">
+        </div>
+        <div class="profile_image_box">
+            <a href="https://github.com/Akash7355"><img src="/images/me.jpg" alt=""></a>
+        </div>
+        <img src="/movies_web/images/menu.png" alt="" class="menu">
+    </section>
+    <section class="main_container">
+        <div class="side_bar">
+            <form action="#">
+                <div class="side_bar_groups">
+                    <h3 class="sg_title">Categories</h3>
+                    <input type="checkbox" name="adventure" id="adventure" value="adventure">
+                    <label for="adventure">Adventure</label><br>
+                    <input type="checkbox" name="action" id="action" value="action">
+                    <label for="action">Action</label><br>
+                    <input type="checkbox" name="animation" id="animation" value="animation">
+                    <label for="animation">Animation</label><br>
+                    <input type="checkbox" name="science" id="science" value="science">
+                    <label for="science">Science Fiction</label><br>
+                    <input type="checkbox" name="comedy" id="comedy" value="comedy">
+                    <label for="comedy">Comedy</label><br>
+                    <input type="checkbox" name="thriller" id="thriller" value="thriller">
+                    <label for="thriller">Thriller</label><br>
+                    <input type="checkbox" name="history" id="history" value="history">
+                    <label for="history">History</label><br>
+                    <input type="checkbox" name="documentary" id="documentary" value="documentary">
+                    <label for="documentary">Documentary</label><br>
+                    <input type="checkbox" name="fantasy" id="fantasy" value="fantasy">
+                    <label for="fantasy">Fantasy</label><br>
+
+                </div>
+                <div class="side_bar_groups">
+                    <h3 class="sg_title">Language</h3>
+                    <input type="checkbox" name="english" id="english" value="english">
+                    <label for="english">English</label><br>
+                    <input type="checkbox" name="spanish" id="spanish" value="spanish">
+                    <label for="spanish">Spanish</label><br>
+                    <input type="checkbox" name="hindi" id="hindi" value="hindi">
+                    <label for="hindi">Hindi</label><br>
+                </div>
+                <div class="side_bar_groups">
+                    <h3 class="sg_title">Time</h3>
+                    <input type="radio" name="time" id="morning" value="morning">
+                    <label for="morning">Morning</label><br>
+                    <input type="radio" name="time" id="night" value="night">
+                    <label for="night">Night</label><br>
+                </div>
+                <div class="side_bar_groups">
+                    <a href="#" class="btn button_1">Apply_Filters</a>
+                </div>
+
+
+            </form>
+        </div>
+        <div class="movies_container">
+            <div class="upcoming_img_box">
+                <img src="/images/pathaan.jpg" alt="image...">
+                <a href="https://www.imdb.com/calendar/?region=in" class="upcoming_title">Upcoming Movie</a>
+                <div class="button_s">
+                    <a href="https://in.bookmyshow.com/explore/movies?utm_source=google&utm_medium=cpc&utm_campaign=BAU_Movies_Search_Non-Brand_T7_Phrase_Aug21&utm_adgroup=Book%20Movie%20Tickets&utm_term=book%20movie%20ticket%20online&gclid=CjwKCAiA2L-dBhACEiwAu8Q9YBlfh6g_k0N8KNVBc3ssvTn5yEx2dzI8RYS3vcy2cnXU9syJ8dh0TBoCuT8QAvD_BwE"
+                        class="book">Book</a>
+                    <a href="https://www.imdb.com/video/vi2056766745/?ref_=ttvi_vi_imdb_1" class="book-alt book">Play
+                        Trailer</a>
+                </div>
+            </div>
+            <div class="current_movies">
+                <div class="current_movie">
+                    <div class="cm_img_box">
+                        <img src="/images/upcoming.webp" alt="upcoming">
+                    </div>
+                    <h3 class="movie_title">Avatar 2</h3>
+                    <p class="screen_name">Screen: Platinum</p>
+                    <div class="booking">
+                        <h2 class="price">15$</h2>
+                        <a href="https://in.bookmyshow.com/buytickets/avatar-the-way-of-water-ahmedabad/movie-ahd-ET00037264-MT/20230101" class="book-alt">Buy Tickets</a>
+                    </div>
+                </div>
+                <div class="current_movie">
+                    <div class="cm_img_box">
+                        <img src="/images/movie1.jpg" alt="movie1">
+                    </div>
+                    <h3 class="movie_title">Jurassic World</h3>
+                    <p class="screen_name">Screen: Gold</p>
+                    <div class="booking">
+                        <h2 class="price">11$</h2>
+                        <a href="https://in.bookmyshow.com/movies/jurassic-world-dominion/ET00112828" class="book-alt">Buy Tickets</a>
+                    </div>
+                </div>
+                <div class="current_movie">
+                    <div class="cm_img_box">
+                        <img src="/images/movie2.jpg" alt="movie2">
+                    </div>
+                    <h3 class="movie_title">Vikram</h3>
+                    <p class="screen_name">Screen: Silver</p>
+                    <div class="booking">
+                        <h2 class="price">7$</h2>
+                        <a href="https://www.ticketnew.com/Vikram-Movie-Tickets-Online-Booking-Show-Timings/Release-Date/22483" class="book-alt">Buy Tickets</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

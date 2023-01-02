@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #1e1f2b;
+    display: grid;
+    grid-template-columns: 1000px;
+    justify-content: space-evenly;
+}
+
+/*top-bar*/
+.main_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+
+}
+a{
+    text-decoration: none;
+    color: #adadad;
+}
+.button_1{
+    display: inline-block;
+    padding: .5rem 1rem;
+    background-color: #cd8ccd;
+    border-radius: 2rem;
+    color: #1e1f2b;
+    font-weight: 300;
+    transition: 0.3s ;
+}
+.button_1:hover{
+    background-color: #a011a0;
+}
+.btn{
+    width: 100%;
+    text-align:center;
+}
+.left_content,.right_content{
+    display: flex;
+    align-items: center;
+}
+.title{
+    margin-right: 3rem;
+    color: #cd8ccd;
+}
+.nav{
+    display: flex;
+    list-style: none;
+
+}
+.nav li{
+    margin-left: 1rem;
+}
+.active{
+    color: #cd8ccd;
+}
+.nav li a:hover{
+    color: #cd8ccd;
+}
+.filter,.cart,.help,.menu{
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.filter,.cart,.help{
+   margin-right: 1rem;
+}
+.menu{
+    margin-left: 0.8rem;
+}
+.filter,.menu{
+    display: none;
+}
+
+.profile_image_box{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.filter,.cart,.help,.menu{
+    position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+
+/* main-container*/
+.main_container{
+    color: #adadad;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 2rem;
+}
+/*side_bar*/
+.side_bar{
+    background: linear-gradient(45deg,rgba(255,255,255,.05),rgba(205,140,56,.15));
+    backdrop-filter: blur(5px);
+    border-radius: 1rem;
+    padding: 2rem 2.5rem;
+}
+.side_bar_groups{
+    margin-bottom: 1rem;
+}
+.sg_title{
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+input{
+    margin-bottom: 0.6rem;
+}
+input[type=checkbox]:checked{
+    accent-color: #cd8ccd;
+}
+input[type=radio]:checked{
+    accent-color: #cd8ccd;
+}
+label{
+    margin-left: 0.5rem;
+}
+
+/* movie-container*/
+.upcoming_img_box{
+    position: relative ;
+    height: 300px;
+    width: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+.upcoming_title{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    color: #cd8ccd;
+    background-color: #1e1f2b;
+    padding: .35rem .75rem;
+    border-radius: 2rem;
+    border: 1px solid #cd8ccd;
+    font-weight:500;
+    
+}
+.upcoming_title:hover{
+    background-color:  #927d20;
+    color: #fff;
+}
+.button_s{
+     position: absolute;
+     bottom: 2rem;
+     left: 2rem;
+}
+.book-alt,.book{
+    background-color:#1e1f2b;
+    color: #cd8ccd;
+    border: 1px solid #cd8ccd ;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    padding: .25rem .5rem;
+}
+.book:hover{
+    background-color:  #927d20;
+    color: #fff;
+
+}
+.book-alt:hover{
+    background-color: #927d20;
+    color: #fff;
+
+}
+
+
+/* Current_movies */
+.movies_container{
+    padding-bottom: 2rem;
+}
+.current_movies{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+}
+.current_movie{
+    background: linear-gradient(45deg,rgba(255,255,255,.05),rgba(205,140,56,.15));
+    padding: 1rem;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+.movie_title{
+    color: #fff;
+    margin-bottom: .2rem;
+}
+.booking{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.cm_img_box{
+    position: relative;
+    height: 150px;
+    width: auto;
+    margin-bottom: 1rem;
+    border-radius: .75rem;
+    overflow: hidden;
+
+}
+.price{
+    color: #a011a0;
+}
